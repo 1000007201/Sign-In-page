@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(background.jpg);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login{
+    width: 320px;
+    height: 420px;
+    background: black;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left:34%;
+}
+h1{
+    margin: 0px;
+    padding: 0 0 20px;
+    font-size: 22px;
+    text-align: center;
+
+}
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login input[type="text"], input[type="password"]{
+    border: none;
+    background: transparent;
+    height: 40px;
+    border-bottom: 1px solid white;
+    font-size: 16px;
+    color: #fff;
+}
+.login input[type="submit"]{
+    background: whitesmoke;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 16px;
+}
+.login input[type="submit"]:hover{
+    background:rgb(241, 241, 131);
+    cursor: pointer;
+}
+.login a{
+    text-decoration: none;
+    color: darkgray;
+    font-size: 12px;
+
+}
+.login a:hover{
+    color: rgb(241, 241, 131);
+}
